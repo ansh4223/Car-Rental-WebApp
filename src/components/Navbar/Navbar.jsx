@@ -23,6 +23,7 @@ const NavLinks = [
     link: "/#booking",
   },
 ];
+/*Dark mode features*/
 const Navbar = ({theme, setTheme}) => {
   return (
     <nav className="shadow-md bg-white dark:bg-dark dark:text-white duration-300">
