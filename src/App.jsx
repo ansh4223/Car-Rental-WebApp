@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Navbar/Hero/Hero";
+import Hero from "./components/Hero/Hero";
 
 const App = () => {
   const [theme, setTheme] = React.useState(
