@@ -8,6 +8,7 @@ import Services from "./components/Services/Services";
 import CarList from "./components/CarList/CarList";
 import Testimonial from "./components/Testimonial/Testimonial";
 import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   const [theme, setTheme] = React.useState(
@@ -44,6 +45,7 @@ const App = () => {
       <CarList />
       <Testimonial />
       <AppStoreBanner />
+      <Contact />
     </div>
   );
 };
